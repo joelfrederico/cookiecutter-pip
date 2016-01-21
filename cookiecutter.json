@@ -1,0 +1,9 @@
+{
+	"full_name": "Python Developer Name (Business, optional)",
+	"email": "python.developer@email.com",
+	"project_name": "Pip Template",
+	"import_name": "piptemplate",
+	"project_short_description": "A short description of the project.",
+	"init_version": "0.1.0",
+	"project_github_page": "https://github.com/user/{{cookiecutter.project_name}}"
+}
