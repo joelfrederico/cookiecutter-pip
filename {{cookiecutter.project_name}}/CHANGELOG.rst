@@ -1,7 +1,7 @@
 Changelog
 =========
 
-{{cookiecutter.init_version            }} ({{cookiecutter.init_date             }})
-{{ "=" * len(cookiecutter.init_version) }}--{{ "-" * len(cookiecutter.init_date) }}-
+{{ cookiecutter.init_version               }} ({{ cookiecutter.init_date               }})
+{{ "=" * length(cookiecutter.init_version) }}--{{ "-" * length(cookiecutter.init_date) }}-
 
 * Initial commit
