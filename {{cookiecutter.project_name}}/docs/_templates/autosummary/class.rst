@@ -1,3 +1,4 @@
+{% raw %}
 {% extends "!autosummary/class.rst" %}
 
 {% block methods %}
@@ -25,3 +26,4 @@
       {%- endfor %}
 {% endif %}
 {% endblock %}
+{% endraw %}
