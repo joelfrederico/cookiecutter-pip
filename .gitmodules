@@ -1,0 +1,3 @@
+[submodule "{{cookiecutter.project_name}}/docs/scipy-sphinx-theme"]
+	path = {{cookiecutter.project_name}}/docs/scipy-sphinx-theme
+	url = git@github.com:joelfrederico/scipy-sphinx-theme.git

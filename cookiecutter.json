@@ -1,11 +1,15 @@
 {
 	"full_name": "Python Developer Name (Business, optional)",
 	"email": "python.developer@email.com",
-	"project_name": "Pip Template",
+	"project_name": "PipTemplate-no-spaces",
 	"import_name": "piptemplate",
 	"project_short_description": "A short description of the project.",
-	"init_version": "0.1.0",
+	"init_version": "0.0.1",
 	"init_date": "2015-11-30",
-	"project_github_page": "https://github.com/user/{{cookiecutter.project_name}}",
-	"keywords": "space separated keywords"
+	"github_user": "github-user",
+	"github_project": "github-project",
+	"project_github_page": "https://github.com/{{ cookiecutter.github_user }}/{{ cookiecutter.github_project }}",
+	"project_rtd_page": "http://{{ cookiecutter.project_name|lower }}.readthedocs.org/",
+	"keywords": "space separated keywords",
+	"travis_ci_user": "travis-ci-username"
 }
