@@ -1,15 +1,15 @@
 {
-	"full_name": "Python Developer Name (Business, optional)",
-	"email": "python.developer@email.com",
-	"project_name": "PipTemplate-no-spaces",
-	"import_name": "piptemplate",
-	"project_short_description": "A short description of the project.",
-	"init_version": "0.0.1",
-	"init_date": "2015-11-30",
-	"github_user": "github-user",
-	"github_project": "github-project",
-	"project_github_page": "https://github.com/{{ cookiecutter.github_user }}/{{ cookiecutter.github_project }}",
-	"project_rtd_page": "http://{{ cookiecutter.project_name|lower }}.readthedocs.org/",
-	"keywords": "space separated keywords",
-	"travis_ci_user": "travis-ci-username"
+	"full_name"                 :  "Joel Frederico (SLAC National Accelerator Laboratory)",
+	"email"                     :  "joelfred@slac.stanford.edu",
+	"project_name"              :  "IonSimPy",
+	"import_name"               :  "ionsimpy",
+	"project_short_description" :  "Analyze results of IonSim.",
+	"init_version"              :  "0.0.1",
+	"init_date"                 :  "2016-03-01",
+	"github_user"               :  "joelfrederico",
+	"github_project"            :  "IonSimPy",
+	"project_github_page"       :  "https://github.com/{{ cookiecutter.github_user }}/{{ cookiecutter.github_project }}",
+	"project_rtd_page"          :  "http://{{ cookiecutter.project_name|lower }}.readthedocs.org/",
+	"keywords"                  :  "plasma simulation",
+	"travis_ci_user"            :  "JoelFrederico"
 }
