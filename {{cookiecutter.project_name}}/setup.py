@@ -37,7 +37,7 @@ setup(
     long_description=long_description,
 
     # The project's main homepage.
-    url='{{cookiecutter.url}}',
+    url='{{cookiecutter.project_github_page}}',
 
     # Author details
     author='{{cookiecutter.full_name}}',

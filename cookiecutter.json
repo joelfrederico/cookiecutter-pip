@@ -1,15 +1,16 @@
 {
 	"full_name"                 :  "Joel Frederico (SLAC National Accelerator Laboratory)",
 	"email"                     :  "joelfred@slac.stanford.edu",
-	"project_name"              :  "IonSimPy",
-	"import_name"               :  "ionsimpy",
-	"project_short_description" :  "Analyze results of IonSim.",
+	"project_name"              :  "",
+	"import_name"               :  "{{ cookiecutter.project_name.lower() }}",
+	"project_short_description" :  "",
 	"init_version"              :  "0.0.1",
-	"init_date"                 :  "2016-03-01",
+	"init_date"                 :  "{% now 'local' %}",
 	"github_user"               :  "joelfrederico",
-	"github_project"            :  "IonSimPy",
+	"github_project"            :  "{{ cookiecutter.project_name }}",
 	"project_github_page"       :  "https://github.com/{{ cookiecutter.github_user }}/{{ cookiecutter.github_project }}",
-	"project_rtd_page"          :  "http://{{ cookiecutter.project_name|lower }}.readthedocs.org/",
-	"keywords"                  :  "plasma simulation",
-	"travis_ci_user"            :  "JoelFrederico"
+	"project_rtd_page"          :  "http://{{ cookiecutter.project_name.lower() }}.readthedocs.org/",
+	"keywords"                  :  "",
+	"travis_ci_username"        :  "JoelFrederico",
+	"_copy_without_render"      :  ["docs/scipy-sphinx-theme/*"]
 }
